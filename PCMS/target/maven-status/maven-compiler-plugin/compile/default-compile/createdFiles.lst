@@ -1,0 +1,12 @@
+com\Connectionget.class
+com\DownloadServlet1.class
+com\TreatmentServlet.class
+com\LogoutServlet.class
+com\DownloadServlet2.class
+com\SurgeryServlet.class
+com\PrescriptionServlet.class
+com\ReportServlet.class
+com\PersonalServlet.class
+com\AppointmentServlet.class
+com\LoginServlet.class
+com\RecordPdf.class

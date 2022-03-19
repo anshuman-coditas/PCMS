@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Appointment Schedule</title>
+</head>
+<body>
+<form action="AppointmentServlet">
+ Name :   <input type="text" name="pname"><br><hr>
+ Age :   <input type="text" name="age"><br><hr>
+ Gender :    <input type="radio" name="gender" value="male">
+    <input type="radio" name="gender" value="female">
+    <input type="radio" name="gender" value="others"><br><hr>
+ Select A Doctor :  <select name="doctors">
+        <option value="dra">Dr. A</option>
+        <option value="drb">Dr. B</option>
+        <option value="drc">Dr. C</option>
+        <option value="drd">Dr. D</option>
+        <option value="drd">Dr. E</option>
+    </select><br><hr>
+ Enter the Problem :    <textarea rows="10" cols="10" name="prob"></textarea><br><hr>
+ Enter Preferred Time :    <input type="time" name="atime"><br><hr>
+ Enter Date :   <input type="date" name="adate"><br><hr>
+ Enter Phone :   <input type="text" name="phone"><br><hr>
+ Enter Email :  <input type="email" name="email"><br><hr>
+    <input type="submit" value="SUBMIT DETAILS"><br><hr>
+</form>
+</body>
+</html>
